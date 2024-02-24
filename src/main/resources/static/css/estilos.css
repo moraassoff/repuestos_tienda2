@@ -9,17 +9,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 
 body{
     box-sizing: border-box;
-    background-color: #372E2B;
+    background-color: bisque;
     margin: 0;
     font-family: sans-serif;
     padding: 80px 20px 0;
-    color: white;
 
 }
 
 article{
     box-sizing: border-box;
-    background-color: #FFB833;
+    background-color: orange;
     
     
 }
@@ -27,26 +26,27 @@ footer{
    position: fixed;
    background-color: brown;
    color: white;
-   left: 0;
-   bottom: 0;
-   right:0;
-   height: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
 }
+
 .encabezado{
    position: fixed;
    background-color: brown;
-   top: 0;
-   left: 0; 
-   height: 90px;
-   width: 100%;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
  
    
 }
 .navegacion{
-    display: flex;
+   display: flex;
+    justify-content: space-between;
     max-width: 992px;
     margin: 0 auto;
- 
     
 }
 section{
@@ -54,24 +54,24 @@ section{
    overflow-y: scroll;
  
    background-color: bisque;
-   top: 80px;
-   left: 20%;
-   bottom: 20px;
-   right:0;
+   top: 90px;
+    left: 20%;
+    bottom: 20px;
+    right: 0;
 }
 .nav-link{
   color: white;  
   text-decoration: none;
 }
 .logo{
-    font-size: 50px;
+     font-size: 30px;
     font-weight: bold;
     padding: 0 40px;
-   line-height: 90px;
+    line-height: 90px;
     
 }
 .nav-menu{
-    display: flex;
+     display: flex;
     font-size: 18px;
     line-height: 90px;
     list-style: none;
@@ -82,14 +82,14 @@ section{
     
 }
 .nav-menu-link{
-    padding: 8px 12px;
+     padding: 8px 12px;
     border-radius: 6px;
 }
 aside{
    position: fixed;
-   background-color: #372E2B;
-   top: 50px;
-   left: 0;
-   right:0;
-   width: 30%;
+   background-color: red;
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
 }
