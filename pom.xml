@@ -14,7 +14,7 @@
     <name>Repuestos Tienda</name>
     <description>Tarea 2 del curso de diseño de desarrollo web</description>
     <properties>
-        <java.version>16</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
